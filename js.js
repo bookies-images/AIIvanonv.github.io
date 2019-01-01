@@ -1,5 +1,5 @@
-document.addEventListener( 'DOMContentLoaded', function( event ) {
-  $(window).on("load resize", function(){
-    $(".header").load("header.html")
+document.addEventListener("DOMContentLoaded", function(event) {
+  $(window).on("load", function(){
+    $(".header").load("header.html .header > *");
   })
 });
